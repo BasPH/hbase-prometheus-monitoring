@@ -1,6 +1,6 @@
 # Monitoring HBase with Prometheus demo
 
-This repo serves as a demo for [this blog](https://blog.godatadriven.com/hbase-prometheus-monitoring). Running `./run-demo.sh` will set up HBase, Prometheus and Grafana. Browse to http://localhost:3000/dashboard/db/hbase to view the metrics.
+This repo serves as a demo for [this blog](https://blog.godatadriven.com/hbase-prometheus-monitoring). Running `./run-demo.sh` will set up HBase pseudo-distributed with 2 masters and 4 regionservers, Prometheus and Grafana. Browse to http://localhost:3000/dashboard/db/hbase to view the metrics.
 
 There are several dependencies, e.g. Docker on OS X is used for Prometheus and Grafana. You might need to install something or edit configs.
 
