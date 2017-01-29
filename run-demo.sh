@@ -2,7 +2,7 @@
 # Demo installation script for HBase monitoring with Prometheus JMX exporter and Grafana
 # This script will install in /tmp/demo
 
-# Stop all HBase & HDFS processes
+# Manually stop all HBase & HDFS processes, use jps to check
 rm -v -rf /tmp/demo
 rm -v -rf /tmp/hadoop-${USER} # cleanup HDFS
 docker rm --force demo_prometheus demo_grafana
